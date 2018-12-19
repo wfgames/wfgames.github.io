@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('header.jpg');
+  background-repeat: no-repeat;
+	background-size: contain;
+  	background-position: center;
+  background-color: black;
+  color: white;
+}
+
+.jumbotron{
+	background-color: rgba(255,255,255,0);
+	/*border: 2px solid white;*/1
+
+	
+}
+
+.btn {
+	border-radius: 300px;
+}
+
+.btn-xl{
+	font-weight: 700;
+	font-size: 1.5rem;
+	padding: .75rem 1.25rem;
+}
+
+.btn-secondary:hover {
+	background-color: red;
+}
